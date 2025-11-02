@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrive &amp; Flourish with A.O.L - Home</title>
+    <link rel="stylesheet" href="./Thrive &amp; Flourish with A.O.L - Home_files/Style.css">
+    <!-- Bootstrap for layout and styling -->
+    <link href="./Thrive &amp; Flourish with A.O.L - Home_files/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Thrive &amp; Flourish with A.O.L - Home_files/all.min.css">
+</head>
+<body>
+    <!-- Header Section with Navigation -->
+<header class="main-header">
+        <div class="container d-flex justify-content-between align-items-center py-3">
+
+            <div class="logo">
+                <img src="./Thrive &amp; Flourish with A.O.L - Home_files/banner.jpg" alt="logo" class="img-fluid">
+            </div>
+
+            <nav>
+                <ul class="list-unstyled d-flex m-0">
+                    <li class="ms-4"><a class="text-decoration-none" href="http://127.0.0.1:5500/index.html">Home</a></li>
+                    <li class="ms-4"><a class="text-decoration-none" href="http://127.0.0.1:5500/about.html">About</a></li>
+                    <li class="ms-4"><a class="text-decoration-none" href="http://127.0.0.1:5500/contact.html">Contact Us</a></li>
+                    <li class="ms-4"><a class="text-decoration-none" href="http://127.0.0.1:5500/foryou.html">For You</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+<section class="hero bg-primary text-white text-center py-5" style="background-image: url(&#39;IMAGES/banner\ fitness.jpeg&#39;); background-size: cover; background-position: relative; object-fit: cover;
+    &lt;div class= " container">
+        <h1>Thrive &amp; Flourish with A.O.L</h1>
+        <p class="lead">"Discover ways to nourish your body, mind, and soul"</p>
+        <a href="http://127.0.0.1:5500/about.html" class="btn btn-light btn-lg">Learn More</a>
+    
+</section>
+
+
+    <!-- Our Focus Section -->
+    <section class="focus py-5 text-center">
+        <div class="container">
+            <h3>Our Focus</h3>
+            <p>We promote healthy eating, mental wellness, and active living for a balanced lifestyle.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Thrive &amp; Flourish with A.O.L - Home_files/image1.jpg" class="card-img-top" alt="Healthy Eating">
+                        <div class="card-body">
+                            <h5 class="card-title">Healthy Eating</h5>
+                            <p class="card-text">Discover the importance of nutrition in overall well-being.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Thrive &amp; Flourish with A.O.L - Home_files/image2.jpg" class="card-img-top" alt="Mental Wellness">
+                        <div class="card-body">
+                            <h5 class="card-title">Mental Wellness</h5>
+                            <p class="card-text">Techniques and resources to improve your mental health.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Thrive &amp; Flourish with A.O.L - Home_files/image3.jpg" class="card-img-top  alt=" active="" living"="">
+                        <div class="card-body">
+                            <h5 class="card-title">Active Living</h5>
+                            <p class="card-text">Stay active with tips on exercise and movement for a healthy life.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+ <footer>
+        <p>Thrive &amp; Flourish with Glosh-Inspiring a healthy, balanced and positive lifestyle</p>
+        <p>©2025 Glosh Wellness| All Rights reserved</p>
+        <a href="http://m.facebook.com/">facebook</a>
+        <a href="http://m.twitter.com/">twitter</a>
+        <a href="http://m.instagram.com/">instagram</a>
+         <a href="mailto:gloshwellness@gmail.com">gloshwellness@gmail.com</a>
+          <a href="tel:+256 745324951">+256 745324951</a>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+   
+</body><!-- Code injected--></html>
